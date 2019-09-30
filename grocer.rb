@@ -49,6 +49,6 @@ end
 
 def checkout(cart, coupons)
   cons_cart = consolidate_cart(cart)
-  coup_cons_cart= apply_coupons(cons_cart)
+  coup_cons_cart= apply_coupons(cons_cart, coupons)
   binding.pry
 end
