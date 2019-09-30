@@ -52,7 +52,7 @@ def checkout(cart, coupons)
   coup_cons_cart= apply_coupons(cons_cart, coupons)
   coup_cons_clear_cart= apply_clearance(coup_cons_cart)
   coup_cons_clear_cart.each do |item, info|
-    
+     binding.pry
   end
  
 end
